@@ -8,6 +8,7 @@ public class S28866BankApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(S28866BankApplication.class, args);
+		System.out.println("przykładowy commit");
 	}
 
 }
