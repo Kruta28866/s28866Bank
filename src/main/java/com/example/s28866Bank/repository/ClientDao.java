@@ -51,4 +51,9 @@ public class ClientDao {
         return getClientById(userid);
     }
 
+    public void register(int userid, int amount){
+        Client.builder().id(userid).amount(amount);
+
+    }
+
 }
